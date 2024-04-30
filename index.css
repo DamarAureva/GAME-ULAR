@@ -1,0 +1,95 @@
+img{
+    border: #000000;
+    align
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    
+}
+body{
+    height: 100vh;
+    background: url('Green\ and\ White\ Doodle\ Thesis\ Defense\ Presentation.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    stroke: #000000;
+    border-radius: 20px;
+
+
+    
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 100px 100px;
+    width: 300px;
+
+     background: url('Green\ and\ White\ Doodle\ Thesis\ Defense\ Presentation.png');
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+    fill:  #df1010;
+    border-radius: 100px;
+    
+}
+.container h1{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid hsl(64, 100%, 45%);
+    border-style: none;
+    border-radius: 10px;
+    
+}
+.container label{
+    text-align: left;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: solid;
+    background-color: transparent;
+    border-bottom: 2px solid hsl(0, 84%, 48%);
+    color: #000000;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+.container form button{
+    width: 100%;
+    padding: 5px 0;
+    border: solid;
+    background-color:#FFB800;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+img{
+    position:unset;
+}
+button{
+    margin: 5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    padding: 5px 0;
+    border: solid;
+    background-color:#FFB800;
+    font-size: 18px;
+    color: #f3f3f3;
+    border-radius: 10px;
+   
+}
